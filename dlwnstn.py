@@ -73,3 +73,4 @@ end = st.selectbox("목적지 선택", locations.keys())
 if st.button("최적 경로 계산"):
     path = nx.shortest_path(G, source=start, target=end, weight="weight")
     st.success(f"최적 경로: {' → '.join(path)}")
+
