@@ -1,1 +1,1 @@
-python -m streamlit run dlwnstn.py
+python -m streamlit run man.py
