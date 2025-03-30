@@ -6,10 +6,7 @@ from streamlit_folium import folium_static
 import pandas as pd
 
 
-import streamlit as st
-import folium
-from streamlit_folium import folium_static
-import pandas as pd
+
 
 # 페이지 설정
 st.set_page_config(page_title="수학여행", page_icon="🌍", layout="wide")
